@@ -6,7 +6,7 @@ Reference architecture for **production-oriented multi-agent orchestration**: pl
 
 ## Architecture Focus
 
-- Multi-agent roles (planner, researcher, executor, critic)
+- Multi-agent roles (planner, executor, critic)
 - Explicit orchestration graph with retry/fallback policies
 - Tool registry with typed contracts
 - Human-in-the-loop approval checkpoints
@@ -99,3 +99,4 @@ print(result.trace_id)
 ## License
 
 MIT
+
